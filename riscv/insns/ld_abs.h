@@ -1,0 +1,1 @@
+WRITE_RD((RS1<=0)?-RS1:RS1);

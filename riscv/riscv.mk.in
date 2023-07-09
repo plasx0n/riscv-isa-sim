@@ -84,6 +84,14 @@ riscv_gen_hdrs = \
 
 riscv_insn_ext_i = \
 	ld_addsat \
+	ld_subsat \
+	ld_abs \
+	ld_min \
+	ld_max \
+	ld_eval \
+	ld_rsign \
+	ld_sign \
+	ld_nmess \
 	add \
 	addi \
 	addiw \
