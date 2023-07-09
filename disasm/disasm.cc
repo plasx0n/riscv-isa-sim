@@ -878,6 +878,7 @@ void disassembler_t::add_instructions(const isa_parser_t* isa)
   DEFINE_ITYPE_SHIFT(srliw);
   DEFINE_ITYPE_SHIFT(sraiw);
 
+  DEFINE_RTYPE(ld_addsat);
   DEFINE_RTYPE(add);
   DEFINE_RTYPE(sub);
   DEFINE_RTYPE(sll);
