@@ -112,6 +112,18 @@ riscv_insn_ext_i = \
 	ld_rsign \
 	ld_sign \
 	ld_nmess \
+	tb_subsat \
+	tb_max \
+	tb_scale \
+	tb_addsat \
+	tb_vmax \
+	tb_vmin \
+	tb_vsrls \
+	tb3_accumax \
+	tb3_accupp \
+	tb3_accump \
+	tb3_addllsa \
+	tb3_maxpm \
 	add \
 	addi \
 	addiw \
