@@ -83,6 +83,26 @@ riscv_gen_hdrs = \
 
 
 riscv_insn_ext_i = \
+	pl_addsat \
+	pl_decode \
+	pl_eval \
+	pl_f \
+	pl_r \
+	pl_rep_addhi \
+	pl_rep_addlow \
+	pl_rep_addsign \
+	pl_rep_addsum \
+	pl_spc_acmp \
+	pl_spc_amin \
+	pl_spc_idup \
+	pl_spc_max \
+	pl_spc_minapos \
+	pl_spc_xorsum \
+	pl_subsat \
+	pl3_g \
+	ld3_min_sorting \
+	ld3_minmax \
+	ld3_rsign_nmess \
 	ld_addsat \
 	ld_subsat \
 	ld_abs \
