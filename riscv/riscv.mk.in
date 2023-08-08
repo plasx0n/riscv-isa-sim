@@ -117,8 +117,22 @@ riscv_insn_ext_i = \
 	tb_scale \
 	tb_addsat \
 	tb_vmax \
-	tb_vmin \
 	tb_vsrls \
+	tb_vsubsat \
+	tb_vaddscale \
+	tb_div2add \
+	tb_div2sub \
+	tb_div34\
+	tb_sat63\
+	tb_shuffle\
+	tb_vadds\
+	tb_vsubs\
+	tb3_addsrla\
+	tb3_blendv\
+	tb3_concaddadd\
+	tb3_concaddsub\
+	tb3_maxaddsub\
+	tb3_subsrla\
 	tb3_accumax \
 	tb3_accupp \
 	tb3_accump \
