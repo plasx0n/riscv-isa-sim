@@ -83,6 +83,21 @@ riscv_gen_hdrs = \
 
 
 riscv_insn_ext_i = \
+	ldn_add32u_sat64 \
+	ldn_vidxminupdate2 \
+	ldn_min \
+	ldn_sat8 \
+	ldn_add32s_sat64 \
+	ldn_sub32s_sat64 \
+	ldn_vidxmincomp \
+	ldn_vidxminupdate \
+	ldn_extract \
+	ldn3_maxsub \
+	ldn3_copyxorvecto \
+	ldn3_readVn \
+	ldn3_addsatmin \
+	ldn3_shift3 \
+	ldn3_vidxcompv3 \
 	pl_addsat \
 	pl_decode \
 	pl_eval \
@@ -100,6 +115,15 @@ riscv_insn_ext_i = \
 	pl_spc_xorsum \
 	pl_subsat \
 	pl3_g \
+	ld3_copysignr3 \
+	ld_copysign \
+	ld_cmpeq \
+	ld_maxu \
+	ld_minu \
+	ld_maxsub \
+	ld3_blendv \
+	ld_xorb \
+	ld_storeu \
 	ld3_min_sorting \
 	ld3_minmax \
 	ld3_rsign_nmess \
@@ -112,7 +136,6 @@ riscv_insn_ext_i = \
 	ld_rsign \
 	ld_sign \
 	ld_nmess \
-	tb_subsat \
 	tb_max \
 	tb_scale \
 	tb_addsat \
