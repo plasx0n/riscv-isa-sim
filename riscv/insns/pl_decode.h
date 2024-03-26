@@ -1,11 +1,11 @@
 //need to fill this one out 
+//callDecode(*decode,*ptr_sum,*fz_bits) ; 
 
-int8_t res = RS1 + RS2;
+int8_t res ; 
 
-if(res>=127){
-  res=127 ;
-}else if (res <=-127){
-  res =-127;
-}
+if ( RS2 == 0 )
+	res = RS1 ;
+else
+	res = 0;
 
 WRITE_RD(res);
